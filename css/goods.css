@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-size: 16px;
+  font-family: '微软雅黑'; }
+
+ul, ol, li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal; }
+
+b, strong {
+  font-weight: normal; }
+
+i, em {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+input, fieldset, textarea {
+  outline: none;
+  border: none; }
+
+header .nav1 {
+  height: 37px;
+  background: #444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 78px;
+  font-size: 12px;
+  color: #ccc; }
+  header .nav1 article {
+    height: 100%;
+    cursor: pointer;
+    line-height: 37px;
+    width: 142px; }
+    header .nav1 article aside {
+      float: left;
+      margin-right: 24px; }
+      header .nav1 article aside a {
+        color: #ccc; }
+        header .nav1 article aside a:active {
+          color: #fff; }
+        header .nav1 article aside a:visited {
+          color: #ccc; }
+    header .nav1 article .iconfont {
+      float: left; }
+  header .nav1 .unav1 li {
+    float: left; }
+    header .nav1 .unav1 li a {
+      padding: 0 12px;
+      color: #ccc; }
+      header .nav1 .unav1 li a .iconfont {
+        font-size: 12px; }
+      header .nav1 .unav1 li a:visited {
+        color: #ccc; }
+      header .nav1 .unav1 li a:active {
+        color: #fff; }
+  header .nav1 .unav1 .register a:hover {
+    color: #00aaa6; }
+  header .nav1 .unav1 .login a:hover {
+    color: #00aaa6; }
+
+.top {
+  height: 64px;
+  background: #fff; }
+  .top div {
+    width: 1200px;
+    margin: 0 auto;
+    height: 24px;
+    padding: 20px 0; }
+    .top div img {
+      width: 152px;
+      margin-right: 16px; }
+    .top div span {
+      margin: 10px 0 0;
+      font-weight: 500;
+      font-size: 16px;
+      color: #1e1e1e; }
+
+.Fixed {
+  height: 284px;
+  width: 48px;
+  background: #fff;
+  position: fixed;
+  right: 10px;
+  top: 25%; }
+  .Fixed li {
+    border-bottom: 1px solid #eee;
+    width: 48px;
+    height: 70px; }
+    .Fixed li a {
+      padding: 10px 0;
+      color: #1e1e1e;
+      font-size: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: space-between;
+      line-height: 24px;
+      text-align: center; }
+      .Fixed li a .iconfont {
+        line-height: 24px;
+        font-style: 24px; }
+  .Fixed li:first-child a {
+    color: #00aaa6; }
+  .Fixed li:first-child .iconfont {
+    color: #00aaa6; }
+  .Fixed li:nth-child(3) {
+    position: relative; }

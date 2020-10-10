@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-size: 16px;
+  font-family: '微软雅黑'; }
+
+ul, ol, li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal; }
+
+b, strong {
+  font-weight: normal; }
+
+i, em {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+input, fieldset, textarea {
+  outline: none;
+  border: none; }
+
+header {
+  height: 65px; }
+  header .head {
+    width: 1188px;
+    height: 35px;
+    margin: 0 auto;
+    padding-top: 20px; }
+    header .head img {
+      width: 152px;
+      height: 42px;
+      float: left;
+      cursor: pointer; }
+    header .head p {
+      font-size: 20px;
+      color: #333333;
+      line-height: 43px;
+      float: left; }
+
+main {
+  height: 680px;
+  background: url(../images/register/bg.jpg) no-repeat;
+  background-size: 100% 100%;
+  margin-top: 55px;
+  font-size: 14px; }
+  main .center {
+    width: 1200px;
+    padding: 0 40px;
+    height: 680px; }
+    main .center .aregister {
+      display: inline-block;
+      vertical-align: middle;
+      zoom: 1;
+      width: 384px;
+      position: relative;
+      margin-top: 70px;
+      margin-bottom: 50px;
+      padding: 0;
+      height: 560px;
+      background: rosybrown;
+      float: right; }
+      main .center .aregister ul {
+        width: 384px;
+        height: 64px;
+        border-bottom: 1px solid #eee;
+        margin-top: 14px; }
+        main .center .aregister ul li {
+          width: 192px;
+          height: 64px;
+          float: left;
+          text-align: center; }
+          main .center .aregister ul li a {
+            text-align: center;
+            line-height: 64px;
+            font-size: 18px;
+            display: inline-block;
+            height: 64px;
+            border-bottom: 1px solid rgba(0, 170, 166, 0); }
+          main .center .aregister ul li:hover a {
+            color: #00aaa6;
+            border-bottom: 1px solid #00aaa6; }
+      main .center .aregister .content {
+        width: 288px;
+        height: 152px;
+        padding: 20px 48px 0; }
+        main .center .aregister .content input {
+          border: none;
+          border-bottom: 1px solid #ddd;
+          font-size: 14px;
+          margin-bottom: 36px;
+          height: 40px;
+          width: 288px; }
+      main .center .aregister .content2 {
+        display: flex;
+        justify-content: space-between;
+        height: 14px;
+        width: 288px;
+        margin: 0 auto;
+        margin-bottom: 36px; }
+        main .center .aregister .content2 aside:first-child input {
+          width: 14px;
+          height: 14px; }
+        main .center .aregister .content2 aside:last-child span:first-child {
+          cursor: pointer;
+          color: #1e1e1e;
+          font-size: 12px;
+          line-height: 14px; }
+        main .center .aregister .content2 aside:last-child span:last-child {
+          cursor: pointer;
+          margin-left: 16px;
+          color: #00aaa6;
+          font-size: 12px;
+          line-height: 14px; }
+      main .center .aregister .content3 {
+        width: 288px;
+        margin: 0 auto; }
+        main .center .aregister .content3 input:first-child {
+          font-size: 16px;
+          background-color: #00aaa6;
+          border: none;
+          color: #fff;
+          text-align: center;
+          width: 288px;
+          height: 40px;
+          margin-bottom: 22px;
+          cursor: pointer;
+          margin-top: 6px; }
+        main .center .aregister .content3 input:last-child {
+          font-size: 16px;
+          text-align: center;
+          width: 288px;
+          height: 40px;
+          cursor: pointer;
+          margin-bottom: 4px; }
+      main .center .aregister .content4 {
+        width: 288px;
+        height: 54px;
+        padding: 16px 0 24px;
+        margin: 0 auto; }
+        main .center .aregister .content4 p {
+          font-size: 12px;
+          color: #ccc;
+          margin-bottom: 20px;
+          line-height: 16px;
+          text-align: center; }
+        main .center .aregister .content4 aside {
+          width: 78px;
+          margin: 0 auto; }
+          main .center .aregister .content4 aside .iconfont {
+            font-size: 19px;
+            text-align: center;
+            padding: 0 10px;
+            cursor: pointer; }

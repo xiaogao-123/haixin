@@ -1,0 +1,65 @@
+[
+  {
+    "id": "商品id",
+    "img": "../images/page/img1.png",
+    "title1": "【国货品质节】",
+    "title2": "海信（Hisense）空气净化器...",
+    "src": "跳转的商品链接",
+    "price": "5999",
+    "sale": "已售103台"
+  },
+  {
+    "id": "商品id",
+    "img": "../images/page/img2.png",
+    "title1": "【KJ220F-D01】",
+    "title2": "远距离送风循环/CADR=220/...",
+    "src": "跳转的商品链接",
+    "price": "3280",
+    "sale": "已售137台"
+  },
+  {
+    "id": "商品id",
+    "img": "../images/page/img3.png",
+    "title1": "【GJ10F-A01】",
+    "title2": "果蔬消毒机去残留细菌高效消...",
+    "src": "跳转的商品链接",
+    "price": "5680",
+    "sale": "已售136台"
+  },
+  {
+    "id": "商品id",
+    "img": "../images/page/img4.png",
+    "title1": "【KJ240F-FA】",
+    "title2": "活性炭滤网/负离子净化/空气...",
+    "src": "跳转的商品链接",
+    "price": "999",
+    "sale": "已售65台"
+  },
+  {
+    "id": "商品id",
+    "img": "../images/page/img5.png",
+    "title1": "【KJ260G-QA】",
+    "title2": "家用净化器",
+    "src": "跳转的商品链接",
+    "price": "3280",
+    "sale": "已售34台"
+  },
+  {
+    "id": "商品id",
+    "img": "../images/page/img6.png",
+    "title1": "【KJ300G-QA】",
+    "title2": "除霾净化/卧室专用/智能净化...",
+    "src": "跳转的商品链接",
+    "price": "1099",
+    "sale": "已售16台"
+  },
+  {
+    "id": "商品id",
+    "img": "../images/page/img7.png",
+    "title1": "【KJ270F-FA】",
+    "title2": "负离子净化/CADR=240/卧室...",
+    "src": "跳转的商品链接",
+    "price": "999",
+    "sale": "已售2台"
+  }
+]
